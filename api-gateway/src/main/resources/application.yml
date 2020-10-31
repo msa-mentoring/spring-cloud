@@ -10,9 +10,20 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
 
+zuul:
+  prefix: /api
+  ignored-services: '*'
+  routes:
+    user-service:
+      path: /users/**                   # /api/users/
+      serviceId: user-service
+    recommendation-service:
+      path: /recommendations/**
+      serviceId: recommendation-service # /api/recommendations/
+
+
 management:
   endpoints:
     web:
       exposure:
         include: '*'
-

@@ -3,6 +3,9 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/api-gateway" />
+    <file type="web" url="file://$PROJECT_DIR$/config-server" />
+    <file type="web" url="file://$PROJECT_DIR$/netflix-service" />
+    <file type="web" url="file://$PROJECT_DIR$/recommendation-service" />
     <file type="web" url="file://$PROJECT_DIR$/service-discovery" />
     <file type="web" url="file://$PROJECT_DIR$/user-serivce" />
   </component>

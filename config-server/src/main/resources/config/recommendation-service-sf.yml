@@ -1,0 +1,5 @@
+server:
+  port: 8090
+
+contents:
+  name: 기묘한 이야기 시즌2
